@@ -13,3 +13,8 @@ const animals = [
     { nome: 'cavallo', famiglia: 'equidi', classe: 'mammiferi'},
 ]
 
+// CREO UN SECONDO ARRAY CHE CONTIENE SOLO GLI ANIMALI CLASSE MAMMIFERI 
+const mammiferi = animals.filter(animal => animal.classe === 'mammiferi');
+
+// STAMPO IN CONSOLE IL CONTENUTO DELL'ARRAY
+console.log(mammiferi)
